@@ -1,4 +1,6 @@
 {
   "item.chefsmod.bread_knife": "Bread Knife",
-  "item.chefsmod.chef_knife": "Chef Knife"
+  "item.chefsmod.chef_knife": "Chef Knife",
+
+  "block.chefsmod.pizza_oven": "Pizza Oven"
 }

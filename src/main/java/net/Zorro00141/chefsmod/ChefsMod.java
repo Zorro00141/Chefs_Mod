@@ -1,6 +1,7 @@
 package net.Zorro00141.chefsmod;
 
 import com.mojang.logging.LogUtils;
+import net.Zorro00141.chefsmod.block.ModBlocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,6 +34,7 @@ public class ChefsMod
         IEventBus EventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(EventBus);
+        ModBlocks.register(EventBus);
 
         EventBus.addListener(this::setup);
 
